@@ -69,7 +69,8 @@ jobs:
         env:
           REGISTRY: ghcr.io
           IMAGE_NAME: ${{ github.repository }}
-          ECR_REPOSITORY: ${{ github.repository }}
+          #ECR_REPOSITORY: ${{ github.repository }}
+          ECR_REPOSITORY: matiasjorquera/devsecopsexamen  # Cambiar a minúsculas
           IMAGE_TAG: ${{ env.IMAGE_TAG }}
         run: |
           echo REGISTRY: $REGISTRY
