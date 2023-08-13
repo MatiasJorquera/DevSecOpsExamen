@@ -1,5 +1,5 @@
 # Especifica la versión mínima de Python
-python>=3.8,<4
+python==3.8
 # Lista de tus dependencias con sus versiones
 astroid==2.5.8
 attrs==21.4.0
