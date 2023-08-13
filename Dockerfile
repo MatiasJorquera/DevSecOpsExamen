@@ -1,8 +1,5 @@
 FROM python:3.8-alpine
 
-# Actualiza pip a la última versión
-RUN pip install --no-cache-dir --upgrade pip
-
 WORKDIR /app
 
 COPY requirements.txt .
